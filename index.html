@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -32,9 +32,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Site CSS -->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top" ng-app="app" class="bg-dark">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -43,14 +45,13 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#/">Renan Rolo</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="" href="#blog">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
@@ -67,214 +68,43 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Renan Rolo</h1>
-                <hr>
+                <h1 id="homeHeading">{{Title}}</h1>
+                <hr />
                 <p>Programador, desenvolvedor, administrador, analista, e qualquer outra qualidade para fazer o que é preciso :D</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Vem comigo...</a>
+                <a href="#blog" class="btn btn-primary btn-xl">Vem comigo...</a>
             </div>
         </div>
     </header>
+    <div ng-view></div>
 
-    <section class="bg-primary" id="about">
+    <footer class="container">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">O que eu quero?</h2>
-                    <h2 class="section-heading">TUDO!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Disseminar conteúdo alem de ser saudável dentro da área de TI é uma ótima maneira de aprendizado.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">AWESOME!!!</a>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="col-xs-3">
+                <a href="#/">Home</a>
+                <br />
+                <a href="#/Blog">Blog</a>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Ao seu dispor</h2>
-                    <hr class="primary">
-                </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Dicas</h3>
-                        <p class="text-muted">Dicas encontrados pela internet que valem muito.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Fácil</h3>
-                        <p class="text-muted">Dicas simples para todos!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">Vou estar sempre atualizando conteúdo.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Looooove</h3>
-                        <p class="text-muted">"Faço porque gosto!!!"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TAG
-                                </div>
-                                <div class="project-name">
-                                    HTML5/CSS3
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TAG
-                                </div>
-                                <div class="project-name">
-                                    Javascript e Bibliotecas
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TAG
-                                </div>
-                                <div class="project-name">
-                                    C#
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TAG
-                                </div>
-                                <div class="project-name">
-                                    Python
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TAG
-                                </div>
-                                <div class="project-name">
-                                    Conversas
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TAG
-                                </div>
-                                <div class="project-name">
-                                    Dicas Profissionais
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Veja o blog!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Blog</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Entre em contato!</h2>
-                    <hr class="primary">
-                    <p>Um e-mail não custa nada! Esclarecer sua dúvida me ajuda mais do que você pensa :D</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>rvrolo@hotmail.com</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:rvrolo@hotmail.com">rvrolo@hotmail.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+    </footer>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    <!-- My Angular Code -->
+    <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+    <script type="text/javascript" src="vendor/angular/angular-route.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
