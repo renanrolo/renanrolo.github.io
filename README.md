@@ -9,5 +9,6 @@
 * CSS
 * HTML
 * WEB :star2:
+* PL-SQL
 
 http://renanrolo.github.io/
