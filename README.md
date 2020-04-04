@@ -1,5 +1,13 @@
  # RenanRolo
- Iniciando meu projeto pessoal para apresentar Tutoriais e outras informações relevantes em C#, HTML, CSS e JavaScript.
- 
- [http://renanrolo.github.io/][meugithublink]
- [meugithublink]: http://renanrolo.github.io/
+
+* .Net :star:
+* C# :star:
+* Javascript
+  * Node
+  * React
+  * Angular2+
+* CSS
+* HTML
+* WEB :star2:
+
+http://renanrolo.github.io/
