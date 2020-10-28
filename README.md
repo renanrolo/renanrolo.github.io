@@ -6,6 +6,7 @@
   * Node
   * React
   * Angular2+
+* GoLang (On Progress)
 * CSS
 * HTML
 * WEB :star2:
