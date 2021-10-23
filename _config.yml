@@ -13,3 +13,5 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - index.md
+
+theme: jekyll-theme-leap-day
