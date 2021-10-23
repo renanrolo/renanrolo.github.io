@@ -1,5 +1,6 @@
 plugins:
   - jekyll-relative-links
+theme: jekyll-theme-leap-day
 relative_links:
   enabled: true
   collections: true
@@ -16,3 +17,4 @@ include:
 title: Renan Rolo
 description: 
 google_analytics: G-WVHZZFPGZX
+
