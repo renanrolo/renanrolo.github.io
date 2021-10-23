@@ -1,4 +1,4 @@
-# [renanrolo.github.io](https://renanrolo.github.io/)
+# https://renanrolo.github.io/
 
 Ao longo dos anos venho fazendo o que todo mundo faz _"criar um projeto super hiper mega blastar e nunca terminar porque ele é gigantesco"_, porem, a lição que eu aprendi foi "fazer o simples", faça o mínimo para mostrar uma ideia.
 
@@ -17,5 +17,7 @@ ___
 # Projetos publicados
 
 > [https://renanrolo.github.io/Horario-de-Trabalho/](https://renanrolo.github.io/Horario-de-Trabalho/)
+>
 > Site para ajudar a calcular o quanto você já trabalhou no dia e qual seria o horário de finalizar o expediente
+>
 > [Repositório nesse link](https://github.com/renanrolo/Horario-de-Trabalho)
