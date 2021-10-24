@@ -14,7 +14,8 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - index.md
-title: Renan Rolo
+title: "Renan Rolo"
 description: "Ctrl+C Ctrl+V"
+author: "Renan Rolo"
 google_analytics: G-WVHZZFPGZX
 permalink: /404.html
