@@ -19,3 +19,6 @@ description: "Ctrl+C Ctrl+V"
 author: "Renan Rolo"
 google_analytics: G-WVHZZFPGZX
 permalink: /404.html
+
+site:
+  lang: pt-br
