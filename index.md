@@ -11,9 +11,8 @@ ___
 
 # Links
 
-[Linguagem C#](/csharp)
-
-[Docker](/docker/)
+- [Linguagem C#](/csharp)
+- [Docker](/docker/)
 
 # Projetos publicados
 
