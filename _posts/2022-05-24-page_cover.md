@@ -1,12 +1,11 @@
-# Renan Rolo Jekyll GitBook
-
-Make Jelly site have a GitBook look!
-
-## Live
-
-Live page on Github Pages: https://renanrolo.github.io/
-
-## Cover image inside pages
+---
+title: Page with cover image
+author: Tao He
+date: 2022-05-24
+category: Jekyll
+layout: post
+cover: /jekyll-gitbook/dinosaur.gif
+---
 
 The jekyll-gitbook theme supports adding a cover image to a specific page by adding
 a `cover` field to the page metadata:
@@ -20,12 +19,4 @@ a `cover` field to the page metadata:
   layout: post
 + cover: /jekyll-gitbook/dinosaur.gif
   ---
-```
-
-```
-bundle install
-
-bundle exec jekyll serve
-
-localhost:4000
 ```

@@ -1,24 +1,59 @@
-plugins:
-  - jekyll-relative-links
-theme: jekyll-theme-midnight
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-  - index.md
-title: "Renan Rolo"
-description: "Ctrl+C Ctrl+V"
-author: "Renan Rolo"
-google_analytics: G-WVHZZFPGZX
-permalink: /404.html
+# Configurations
+title:            Renan Rolo
+longtitle:        Renan Rolo
+author:           Renan Rolo
+email:            rvrolo@hotmail.com
+description: >
+  Sobre Renan Rolo e tecnologias
 
-site:
-  lang: pt-br
+version:          1.0
+gitbook_version:  3.2.3
+
+url:              'https://renanrolo.github.io'
+#baseurl:          '/'
+rss:              RSS
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:        /:categories/:year-:month-:day-:title:output_ext
+
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jemoji
+
+tracker:
+  google_analytics: G-688LHV55FK

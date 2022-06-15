@@ -1,3 +1,11 @@
+---
+title: Alterando o padrão de classes do Visual Studio
+author: Renan Rolo
+date: 2022-04-08
+category: visual_studio
+layout: post
+---
+
 # Visual Studio
 
 ## Alterar o comportamento padrão ao criar classes para ```public class ClassName```
