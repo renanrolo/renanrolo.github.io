@@ -23,9 +23,15 @@ a `cover` field to the page metadata:
 ```
 
 ```
-bundle install
+# Running locally
 
-bundle exec jekyll serve
+Open PowerShell
+
+Run
+`bundle install`
+
+To run locally
+`bundle exec jekyll serve`
 
 localhost:4000
 ```
