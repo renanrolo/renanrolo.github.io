@@ -30,6 +30,8 @@
                             <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
                     </h1>
+
+                    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
                 </div>
 
                 <div class="body-inner">
